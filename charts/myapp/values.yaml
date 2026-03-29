@@ -21,7 +21,7 @@ redis:
   storage: 1Gi
 
 app:
-  image: shshin4370/myapphp0328:v10
+  image: shshin4370/myapphp0328:v11
   replicas: 3
   secret:
     mysqlUser: "frodo"
